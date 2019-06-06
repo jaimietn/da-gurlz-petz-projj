@@ -1,0 +1,8 @@
+<h1>Owners#index</h1>
+<ul>
+<%@owners.each do |owner| %>
+    <li>
+      <%=owner.first_name + " " + owner.last_name%>
+    </li>
+    <%end%>
+</ul>
