@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+    font-family: 'Comic Sans MS';
+    color: rgb(255, 173, 255);
+    text-shadow: 3px 4px #111;
+ }
+
+ a {
+    font-family: 'Comic Sans MS';
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 2px 2px #888;
+ }
+
+ body {
+    background: tan url('http://www.geocities.ws/mommy9876/Mommy9876sPlace/animals/dog-catbg.gif') repeat;
+ }
+
+ a:link {
+    color: hotpink;
+ }
+
+a:visited {
+    color: pink;
+  }
+
+a:hover {
+    color: purple;
+   }
+
+ p {
+     font-family: 'Comic Sans MS';
+     color: black;
+ }
+
+ul {
+    list-style-image: url('https://66.media.tumblr.com/tumblr_mf54qxBn6G1qid2nw.gif');
+}
