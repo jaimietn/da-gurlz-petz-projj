@@ -1,2 +1,9 @@
-<h1>Pets#edit</h1>
-<p>Find me in app/views/pets/edit.html.erb</p>
+<h1>Pets Edit</h1>
+
+<%=form_for @pet do |f|%>
+  <%=f.label "name"%>
+  <%=f.text_field "name"%>
+  <%=f.label "category"%>
+  <%=f.text_field "category"%>
+  <%=f.submit "Update"%>
+<%end%>

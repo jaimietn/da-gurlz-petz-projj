@@ -1,2 +1,12 @@
-<h1>Owners#edit</h1>
-<p>Find me in app/views/owners/edit.html.erb</p>
+<h1>Owners Edit</h1>
+<%=form_for @owner do |f|%>
+  <%=f.label "first_name"%>
+  <%=f.text_field "first_name"%>
+  <%=f.label "last_name"%>
+  <%=f.text_field "last_name"%>
+  <%=f.label "age"%>
+  <%=f.text_field "age"%>
+  <%=f.label "email"%>
+  <%=f.text_field "email"%>
+  <%=f.submit "Update"%>
+<%end%>
