@@ -4,7 +4,7 @@ Goal: Review all of the core concepts of Rails by building an app from scratch
 	- Routes
 	- Controller actions
 	- Views
-	- Forms 
+	- Forms
 	- Validations
 
 Objective: Create a new git repo for a Pets app
