@@ -2,7 +2,7 @@
 <ul>
 <%@owners.each do |owner| %>
     <li>
-      <%=owner.first_name + " " + owner.last_name%>
+      <%=link_to owner.first_name + " " + owner.last_name, "/owners/#{owner.id}"%>
     </li>
     <%end%>
 </ul>
