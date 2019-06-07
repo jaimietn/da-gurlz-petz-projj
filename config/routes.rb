@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get '/owners/many', to: "owners#many"
+
   resources :pets
   resources :owners
+
 end
   # get 'pets/index'
   # get 'pets/show'

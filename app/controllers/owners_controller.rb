@@ -3,6 +3,10 @@ class OwnersController < ApplicationController
     @owners = Owner.all
   end
 
+  def many
+    @owners = Owner.many
+  end
+
   def show
     @owner = Owner.find(params[:id])
   end
@@ -31,6 +35,7 @@ class OwnersController < ApplicationController
     owner.update(owner_params)
     redirect_to owners_path(owner)
   end
+
 
 private
 
